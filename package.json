@@ -1,0 +1,28 @@
+{
+  "name": "personalblogapi",
+  "version": "1.0.0",
+  "description": "A simple CRUD project with Node.js, Express and Prisma.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JooCrepaldi/personalBlogApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JooCrepaldi/personalBlogApi/issues"
+  },
+  "homepage": "https://github.com/JooCrepaldi/personalBlogApi#readme",
+  "dependencies": {
+    "@prisma/client": "^7.0.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^7.0.0"
+  }
+}
