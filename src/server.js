@@ -1,6 +1,6 @@
 import express from 'express';
-import { auth } from './middlewares/auth.js';
-import functions from './functions/functions.js';
+import { auth } from '../middlewares/auth.js';
+import functions from './functions.js';
 
 const app = express();
 const port = 3000;
