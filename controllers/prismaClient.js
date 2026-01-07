@@ -1,5 +1,4 @@
-import pkg from '../node_modules/@prisma/client';
-const { PrismaClient } = pkg;
+import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
