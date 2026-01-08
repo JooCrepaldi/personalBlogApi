@@ -25,7 +25,7 @@ app.get('/admin', auth, (req, res) => {
   functions.readPosts(req, res);
 });
 
-app.get('/admin/edit/{id}', auth, (req, res) => {
+app.get('/admin/{id}', auth, (req, res) => {
   functions.readByIdPost(req, res);
 });
 
