@@ -1,4 +1,3 @@
-# personalBlog_Api
 # Personal Blog API
 
 A simple personal blog API built with Node.js, Express and Prisma (SQLite).
